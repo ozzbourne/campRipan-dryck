@@ -41,6 +41,7 @@
     }
     p {
       letter-spacing: 1px;
+      line-height: 25px;
     }
     h5 {
       letter-spacing: 2px;
@@ -55,7 +56,7 @@
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       .pattisjokkiMenu__PageHeading {
-        font-size: 45px;
+        // font-size: 45px;
         margin-top: 50px;
       }
       .pattisjokkiMenu__MatFilosofi--TextSection {
