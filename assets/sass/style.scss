@@ -75,7 +75,7 @@ $page-width: 1000px;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       .pattisjokkiMenu__PageHeading {
-        // font-size: 45px;
+        font-size: 55px;
         margin-top: 50px;
         @media only screen and (max-width: 625px) {
           margin-top: 0px;
@@ -146,12 +146,12 @@ $page-width: 1000px;
       font: {
         family: "BebasNeue";
         weight: 100;
-        size: 55px;
+        size: 35px;
       }
       letter-spacing: 5px;
       margin-bottom: -50px;
       z-index: 1;
-      margin-top: 180px;
+      //margin-top: 180px;
       @media only screen and (max-width: 625px) {
         font-size: 42px;
         margin-bottom: -25px;
@@ -198,8 +198,25 @@ $page-width: 1000px;
       line-height: 20px;
     }
 
+    .menuItem__lastOfType {
+      margin-bottom: 180px;
+    }
+
     section {
       font-family: "AmericanTypewriter";
+      &.typeOfDrinkIntro {
+        grid-column: 2 / -2;
+        margin: {
+          top: 25px;
+          bottom: 25px;
+        }
+        .typeOfDrinkIntro__heading {
+          font-size: 20px;
+        }
+        // p {
+        //   letter-spacing: 2px;
+        // }
+      }
     }
 
     .pattisjokkiMenu__Footer {
